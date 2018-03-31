@@ -1,0 +1,30 @@
+{
+  "name": "spoticloud",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "server": "nodemon index.js",
+    "client": "npm run start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ek0ms/spoticloud.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3"
+  },
+  "devDependencies": {
+    "concurrently": "^3.5.1",
+    "nodemon": "^1.17.2"
+  },
+  "bugs": {
+    "url": "https://github.com/ek0ms/spoticloud/issues"
+  },
+  "homepage": "https://github.com/ek0ms/spoticloud#readme"
+}
